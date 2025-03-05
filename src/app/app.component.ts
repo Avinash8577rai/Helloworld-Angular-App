@@ -9,4 +9,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'Helloworld-Angular-App';
+  message: string = 'Hello from BridgeLabz using One Way Data Bindings';
 }
