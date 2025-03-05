@@ -11,4 +11,7 @@ export class AppComponent {
   title = 'Helloworld-Angular-App';
   message: string = 'Hello from BridgeLabz using One Way Data Bindings';
   logoUrl: string = 'assets/BL_logo_square_jpg.jpg';
+  openBridgeLabzSite(): void {
+    window.open('https://www.bridgelabz.com', '_blank');
+  }
 }
